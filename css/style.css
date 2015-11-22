@@ -94,15 +94,87 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+                       /* CSS FOR ALL PAGE */
+
+                /* CHANGE MAX-WIDTH ROW */
+.row {
+    max-width: 73em;
+}
+                       /* GENERAL HEADER */
+header {
+    background-color: rgb(33, 102, 221);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'gueules_de_loupregular';
+    text-align: center;
+}
+
+h1 small {
+    color: white;
+}
+                    /* GENERAL PERSONAL FONT-FAMILY */
+@font-face {
+font-family: 'gueules_de_loupregular';
+src: url('../font-family/gueules_de_loup-webfont.eot');
+src: url('../font-family/gueules_de_loup-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font-family/gueules_de_loup-webfont.woff2') format('woff2'),
+url('../font-family/gueules_de_loup-webfont.woff') format('woff'),
+url('../font-family/gueules_de_loup-webfont.ttf') format('truetype'),
+url('../font-family/gueules_de_loup-webfont.svg#gueules_de_loupregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 
 
+/*//////////////////////////////// CSS FOR SIZE LARGE ///////////////////////////////*/
 
+@media screen and (min-width: 1025px) {
+                        /* HEADER LG */
+h1 {
+    font-size: 6em;
+    margin-top: 0.6em;
+    line-height: 1em;
+}
 
+#logo {
+    height: 18em;
+    width: 18em;
+    padding: 2em;
+}
 
+}
 
+/*//////////////////////////////// CSS FOR SIZE MEDIUM ///////////////////////////////*/
 
+@media screen and (min-width: 641) and (max-width: 1024px) {
+                        /* HEADER MD AND SM */
+h1 {
+    font-size: 5em;
+}
 
+#logo {
+    height: 15em;
+    width: 15em;
+    padding-top: 2em;
+}
 
+}
+
+/*//////////////////////////////// CSS FOR SIZE SMALL ///////////////////////////////*/
+
+@media screen and (max-width: 640px) {
+                        /* HEADER XS */
+h1 {
+    font-size: 4em;
+}
+
+#logo {
+    display: none;
+}
+
+}
 
 
 
