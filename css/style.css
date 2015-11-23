@@ -120,9 +120,14 @@ h1 small {
     margin-left: auto;
 }
                     /* NAV OFF CANVAS */
-section > h1 {
+h1 {
     text-align: left;
 }
+
+.marginbottom {
+    margin-bottom: 2em;
+}
+                    /* SECTION FOR LARGE AND MEDIUM */
                     /* GENERAL PERSONAL FONT-FAMILY */
 @font-face {
 font-family: 'gueules_de_loupregular';
@@ -176,6 +181,7 @@ h1 {
                         /* HEADER SMALL */
 h1 {
     font-size: 4em;
+    margin-top: 0.4em
 }
 
 }
