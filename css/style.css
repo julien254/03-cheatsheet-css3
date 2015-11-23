@@ -106,13 +106,22 @@ header {
     text-align: center;
 }
 
-h1 {
+header h1 {
+    line-height: 1em;
     font-family: 'gueules_de_loupregular';
     text-align: center;
 }
 
 h1 small {
     color: white;
+}
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+                    /* NAV OFF CANVAS */
+section > h1 {
+    text-align: left;
 }
                     /* GENERAL PERSONAL FONT-FAMILY */
 @font-face {
@@ -131,11 +140,10 @@ font-style: normal;
 /*//////////////////////////////// CSS FOR SIZE LARGE ///////////////////////////////*/
 
 @media screen and (min-width: 1025px) {
-                        /* HEADER LG */
+                        /* HEADER LARGE */
 h1 {
     font-size: 6em;
     margin-top: 0.6em;
-    line-height: 1em;
 }
 
 #logo {
@@ -148,16 +156,16 @@ h1 {
 
 /*//////////////////////////////// CSS FOR SIZE MEDIUM ///////////////////////////////*/
 
-@media screen and (min-width: 641) and (max-width: 1024px) {
-                        /* HEADER MD AND SM */
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+                        /* HEADER MEDIUM */
 h1 {
     font-size: 5em;
 }
 
 #logo {
-    height: 15em;
-    width: 15em;
-    padding-top: 2em;
+    height: 11em;
+    width: 11em;
+    margin-top: 2em;
 }
 
 }
@@ -165,13 +173,9 @@ h1 {
 /*//////////////////////////////// CSS FOR SIZE SMALL ///////////////////////////////*/
 
 @media screen and (max-width: 640px) {
-                        /* HEADER XS */
+                        /* HEADER SMALL */
 h1 {
     font-size: 4em;
-}
-
-#logo {
-    display: none;
 }
 
 }
