@@ -116,9 +116,15 @@ header h1 {
 h1 small {
     color: white;
 }
+
 #logo {
     margin-right: auto;
     margin-left: auto;
+}
+
+div table {
+    margin:auto auto;
+
 }
                     /* NAV OFF CANVAS */
 
@@ -130,14 +136,12 @@ h1 small {
 h2 {
     margin: 1.5em auto;
     font-style: italic;
-}
-
-.floatleft {
-    float: left!important;
+    text-decoration: underline;
+    font-family: Times, serif;
 }
 
 .floatrigth {
-    float:right!important;
+    float:right;
 }
 
 td.subtitle {
@@ -145,7 +149,7 @@ td.subtitle {
 }
 
 td {
-    border: 3px rgb(156, 156, 156) ridge;
+    border: 1px black solid;
 }
                     /* SECTION FOR LARGE AND MEDIUM */
                     /* GENERAL PERSONAL FONT-FAMILY */
@@ -202,6 +206,11 @@ h1 {
 h1 {
     font-size: 4em;
     margin-top: 0.4em
+}
+
+li.name h1 {
+    padding: 0 0.7375rem;
+    color: white;
 }
 
 }
