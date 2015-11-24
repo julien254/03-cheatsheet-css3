@@ -33,7 +33,7 @@
                 <img id="logo" class="hide-for-small-only" src="img/logo-css3.png" alt="Logo css 3" />
             </div>
             <div class="large-7 medium-12 small-12 columns end">
-                <h1>Cheatsheet css3<br><small>Le b.a.-ba du codage</small></h1>
+                <h1 class="text-center">Cheatsheet css3<br><small>Le b.a.-ba du codage</small></h1>
             </div>
         </div>
     </header>
@@ -54,7 +54,7 @@
                     </section>
                                 <!-- NAV BAR TITLE -->
                     <section class="right tab-bar-section">
-                        <h1 class="title">Références CSS3</h1>
+                        <h1 class="title text-left">Références CSS3</h1>
                     </section>
                 </nav>
                                 <!-- HIDDEN MENU -->
@@ -63,36 +63,296 @@
                         <li>
                             <label>Catégories</label>
                         </li>
-                        <li><a href="#p">Sélecteurs</a></li>
-                        <li><a href="#">Pseudo sélecteurs et Pseudo-classes</a></li>
-                        <li><a href="#">Tailles et couleurs</a></li>
-                        <li><a href="#">Modèle de boite</a></li>
-                        <li><a href="#">Boites</a></li>
-                        <li><a href="#">Positionnement</a></li>
-                        <li><a href="#">Dimensions</a></li>
-                        <li><a href="#">Couleur / Fond</a></li>
-                        <li><a href="#">Polices de caractère</a></li>
-                        <li><a href="#">Tableaux</a></li>
-                        <li><a href="#">Pagination</a></li>
-                        <li><a href="#">Interface</a></li>
-                        <li><a href="#">Audio</a></li>
-                        <li><a href="#">Divers</a></li>
+                        <li><a href="#t1">Sélecteurs</a></li>
+                        <li><a href="#t2">Pseudo sélecteurs et Pseudo-classes</a></li>
+                        <li><a href="#t3">Tailles et couleurs</a></li>
+                        <li><a href="#t4">Modèle de boite</a></li>
+                        <li><a href="#t5">Boites</a></li>
+                        <li><a href="#t6">Positionnement</a></li>
+                        <li><a href="#t7">Dimensions</a></li>
+                        <li><a href="#t8">Couleur / Fond</a></li>
+                        <li><a href="#t9">Polices de caractère</a></li>
+                        <li><a href="#t10">Tableaux</a></li>
+                        <li><a href="#t11">Pagination</a></li>
+                        <li><a href="#t12">Interface</a></li>
+                        <li><a href="#t13">Audio</a></li>
+                        <li><a href="#t14">Divers</a></li>
                     </ul>
                 </aside>
                             <!-- SECTION FOR LARGE AND MEDIUM -->
 
                 <section class="main-section">
                     <div class="row">
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 centered columns">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
+                                        <!-- TABLE 1 -->
+
+                            <table id="t1" role="grid" summary="">
+                                <thead>
+                                    <tr>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Fonctions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>*</td>
+                                        <td>Tous les éléments </td>
+                                    </tr>
+                                    <tr>
+                                        <td>div</td>
+                                        <td>&lt;div&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>div *</td>
+                                        <td>Tout ce qui est dans un &lt;div&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>div span</td>
+                                        <td>&lt;span&gt; dans un &lt;div&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>div, span</td>
+                                        <td>&lt;div&gt; et &lt;span&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>div &gt; span</td>
+                                        <td>&lt;span&gt; avec &lt;div&gt; pour parent</td>
+                                    </tr>
+                                    <tr>
+                                        <td>div + span</td>
+                                        <td>&lt;span&gt; précédé de &lt;div&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.class</td>
+                                        <td>Eléments de la classe "class"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>div.class</td>
+                                        <td>&lt;div&gt; de la classe "class"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#itemid</td>
+                                        <td>Elément avec id "itemid"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>div#itemid</td>
+                                        <td>&lt;div&gt; avec id "itemid"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>a[attr]</td>
+                                        <td>&lt;a&gt; avec attribut "attr"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>a[attr='x']</td>
+                                        <td>&lt;a&gt; dont "attr" est 'x'</td>
+                                    </tr>
+                                    <tr>
+                                        <td>a[class~='x']</td>
+                                        <td>&lt;a&gt; dont la classe est une liste contenant 'x'</td>
+                                    </tr>
+                                    <tr>
+                                        <td>a[lang|='en']</td>
+                                        <td>&lt;a&gt; quand lang commence par 'en'</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="large-6 medium-6 columns ">
+
+                            <h2 class="text-center">Les pseudo sélecteurs et Pseudo-classes</h2>
+                                        <!-- TABLE 2 -->
+
+                            <table id="t2" role="grid" summary="">
+                                <thead>
+                                    <tr>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Fonctions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>:first-child</td>
+                                        <td>Premier élément enfant</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:first-line</td>
+                                        <td>Première ligne de l'élément</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:first-letter</td>
+                                        <td>Première lettre de l'élément</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:hover</td>
+                                        <td>Elément survolé par la souris</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:active</td>
+                                        <td>Elément actif</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:focus</td>
+                                        <td>Elément détenant le focus</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:link</td>
+                                        <td>Liens non visités </td>
+                                    </tr>
+                                    <tr>
+                                        <td>:visited</td>
+                                        <td>Liens visités</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:lang(var)</td>
+                                        <td>Eléments avec langage "var"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:before</td>
+                                        <td>Avant l'élément</td>
+                                    </tr>
+                                    <tr>
+                                        <td>:after</td>
+                                        <td>Après l'élément</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="large-6 medium-6 columns">
+
+                            <h2 class="text-center">Les tailles et les couleurs</h2>
+                                        <!-- TABLE 3 -->
+
+                            <table id="t3" role="grid" summary="">
+                                <thead>
+                                    <tr>
+                                        <th width="220">Unités</th>
+                                        <th width="330">Descriptions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="large-6 medium-6 columns end">
+
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>*</td>
+                                        <td>Tous les éléments</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="large-6 medium-6 columns">
+
+                            <h2 class="text-center">Les sélecteurs</h2>
+                            <table role="grid" summary="">
+
+                                        <!-- TABLE 1 -->
+                                <thead>
+                                    <tr>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -111,16 +371,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns end">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -139,16 +399,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -167,16 +427,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns end">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -195,16 +455,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -223,16 +483,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns end">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -251,16 +511,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -279,16 +539,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns end">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -307,16 +567,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -335,128 +595,16 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="large-5 medium-6 columns">
+                        <div class="large-6 medium-6 columns end">
 
-                            <h2>Les sélecteurs</h2>
+                            <h2 class="text-center">Les sélecteurs</h2>
                             <table role="grid" summary="">
 
                                         <!-- TABLE 1 -->
                                 <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="large-5 medium-6 columns">
-
-                            <h2>Les sélecteurs</h2>
-                            <table role="grid" summary="">
-
-                                        <!-- TABLE 1 -->
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="large-5 medium-6 columns">
-
-                            <h2>Les sélecteurs</h2>
-                            <table role="grid" summary="">
-
-                                        <!-- TABLE 1 -->
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="large-5 medium-6 columns">
-
-                            <h2>Les sélecteurs</h2>
-                            <table role="grid" summary="">
-
-                                        <!-- TABLE 1 -->
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="large-5 medium-6 columns">
-
-                            <h2>Les sélecteurs</h2>
-                            <table role="grid" summary="">
-
-                                        <!-- TABLE 1 -->
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th></th>
+                                        <th width="220">Sélecteurs</th>
+                                        <th width="330">Sélecteurs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
