@@ -95,7 +95,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
                        /* CSS FOR ALL PAGE */
-
+body {
+    background-color: rgb(190, 186, 186)
+}
                 /* CHANGE MAX-WIDTH ROW */
 .row {
     max-width: 73em;
@@ -130,6 +132,21 @@ h2 {
     font-style: italic;
 }
 
+.floatleft {
+    float: left!important;
+}
+
+.floatrigth {
+    float:right!important;
+}
+
+td.subtitle {
+    font-weight: bold;
+}
+
+td {
+    border: 3px rgb(156, 156, 156) ridge;
+}
                     /* SECTION FOR LARGE AND MEDIUM */
                     /* GENERAL PERSONAL FONT-FAMILY */
 @font-face {
